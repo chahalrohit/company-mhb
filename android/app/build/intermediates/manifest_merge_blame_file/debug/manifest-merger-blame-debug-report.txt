@@ -1,0 +1,1113 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.pravisht.MhbMobile"
+4    android:versionCode="46"
+5    android:versionName="6.7.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:3:5-65
+12-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:3:22-62
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:4:5-67
+13-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:4:22-64
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+14-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:5:5-70
+14-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:5:22-68
+15    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+15-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:6:5-76
+15-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:6:22-73
+16    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+16-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:7:5-75
+16-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:7:22-72
+17    <uses-permission
+17-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:8:5-9:34
+18        android:name="android.permission.READ_EXTERNAL_STORAGE"
+18-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:8:22-77
+19        android:maxSdkVersion="32" />
+19-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:9:5-31
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:10:5-80
+20-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:10:22-78
+21    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+21-->[com.facebook.flipper:flipper:0.125.0] /Users/rohitchahal/.gradle/caches/transforms-3/d6558761ac4f0464e7ba5659a02389b0/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+21-->[com.facebook.flipper:flipper:0.125.0] /Users/rohitchahal/.gradle/caches/transforms-3/d6558761ac4f0464e7ba5659a02389b0/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->[:react-native-firebase_analytics] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+22-->[:react-native-firebase_analytics] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+23    <uses-permission android:name="android.permission.WAKE_LOCK" />
+23-->[:react-native-firebase_analytics] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-68
+23-->[:react-native-firebase_analytics] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-65
+24
+25    <uses-feature
+25-->[:react-native-camera] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:11:5-13:36
+26        android:name="android.hardware.camera"
+26-->[:react-native-camera] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:12:9-47
+27        android:required="false" />
+27-->[:react-native-camera] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:13:9-33
+28    <uses-feature
+28-->[:react-native-camera] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:14:5-16:36
+29        android:name="android.hardware.camera.autofocus"
+29-->[:react-native-camera] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:15:9-57
+30        android:required="false" /> <!-- Required to access Google Play Licensing -->
+30-->[:react-native-camera] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:16:9-33
+31    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+31-->[:rn-fetch-blob] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-73
+31-->[:rn-fetch-blob] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-70
+32
+33    <queries>
+33-->[:react-native-health-connect] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/react-native-health-connect/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-11:15
+34        <package android:name="com.google.android.apps.healthdata" />
+34-->[:react-native-health-connect] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/react-native-health-connect/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-70
+34-->[:react-native-health-connect] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/react-native-health-connect/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-67
+35        <package android:name="com.google.android.gms.policy_cast_dynamite" />
+35-->[com.google.android.gms:play-services-cast-framework:21.5.0] /Users/rohitchahal/.gradle/caches/transforms-3/49454b3a7fc90769a400c52446a1d29c/transformed/jetified-play-services-cast-framework-21.5.0/AndroidManifest.xml:11:9-79
+35-->[com.google.android.gms:play-services-cast-framework:21.5.0] /Users/rohitchahal/.gradle/caches/transforms-3/49454b3a7fc90769a400c52446a1d29c/transformed/jetified-play-services-cast-framework-21.5.0/AndroidManifest.xml:11:18-76
+36
+37        <intent>
+37-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:11:9-17:18
+38            <action android:name="android.intent.action.VIEW" />
+38-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:12:13-65
+38-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:12:21-62
+39
+40            <data
+40-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:14:13-16:38
+41                android:mimeType="*/*"
+41-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:15:17-39
+42                android:scheme="*" />
+42-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:16:17-35
+43        </intent>
+44        <intent>
+44-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:18:9-27:18
+45            <action android:name="android.intent.action.VIEW" />
+45-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:12:13-65
+45-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:12:21-62
+46
+47            <category android:name="android.intent.category.BROWSABLE" />
+47-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:21:13-74
+47-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:21:23-71
+48
+49            <data
+49-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:14:13-16:38
+50                android:host="pay"
+51                android:mimeType="*/*"
+51-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:15:17-39
+52                android:scheme="upi" />
+52-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:16:17-35
+53        </intent>
+54        <intent>
+54-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:28:9-30:18
+55            <action android:name="android.intent.action.MAIN" />
+55-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:26:13-65
+55-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:26:21-62
+56        </intent>
+57        <intent>
+57-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:31:9-35:18
+58            <action android:name="android.intent.action.SEND" />
+58-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:32:13-65
+58-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:32:21-62
+59
+60            <data android:mimeType="*/*" />
+60-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:14:13-16:38
+60-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:15:17-39
+61        </intent>
+62        <intent>
+62-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:36:9-38:18
+63            <action android:name="rzp.device_token.share" />
+63-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:37:13-61
+63-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:37:21-58
+64        </intent>
+65    </queries>
+66
+67    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+67-->[com.google.android.gms:play-services-cast-framework:21.5.0] /Users/rohitchahal/.gradle/caches/transforms-3/49454b3a7fc90769a400c52446a1d29c/transformed/jetified-play-services-cast-framework-21.5.0/AndroidManifest.xml:8:5-77
+67-->[com.google.android.gms:play-services-cast-framework:21.5.0] /Users/rohitchahal/.gradle/caches/transforms-3/49454b3a7fc90769a400c52446a1d29c/transformed/jetified-play-services-cast-framework-21.5.0/AndroidManifest.xml:8:22-74
+68    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+68-->[com.google.android.gms:play-services-iid:17.0.0] /Users/rohitchahal/.gradle/caches/transforms-3/01f239b7bd0993982f43ff32d08451dd/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+68-->[com.google.android.gms:play-services-iid:17.0.0] /Users/rohitchahal/.gradle/caches/transforms-3/01f239b7bd0993982f43ff32d08451dd/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
+69    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+69-->[com.google.firebase:firebase-messaging:23.1.2] /Users/rohitchahal/.gradle/caches/transforms-3/838f7be2d82edc5a8ffd30e371c33f08/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:25:5-77
+69-->[com.google.firebase:firebase-messaging:23.1.2] /Users/rohitchahal/.gradle/caches/transforms-3/838f7be2d82edc5a8ffd30e371c33f08/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:25:22-74
+70
+71    <uses-feature
+71-->[com.google.android.gms:play-services-maps:17.0.0] /Users/rohitchahal/.gradle/caches/transforms-3/6be8cce8db5c184dc0a7da7720c20f3b/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+72        android:glEsVersion="0x00020000"
+72-->[com.google.android.gms:play-services-maps:17.0.0] /Users/rohitchahal/.gradle/caches/transforms-3/6be8cce8db5c184dc0a7da7720c20f3b/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+73        android:required="true" />
+73-->[com.google.android.gms:play-services-maps:17.0.0] /Users/rohitchahal/.gradle/caches/transforms-3/6be8cce8db5c184dc0a7da7720c20f3b/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+74
+75    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+75-->[com.google.android.gms:play-services-measurement-api:21.2.1] /Users/rohitchahal/.gradle/caches/transforms-3/0738357376f59691933dc3ed984dfff2/transformed/jetified-play-services-measurement-api-21.2.1/AndroidManifest.xml:25:5-79
+75-->[com.google.android.gms:play-services-measurement-api:21.2.1] /Users/rohitchahal/.gradle/caches/transforms-3/0738357376f59691933dc3ed984dfff2/transformed/jetified-play-services-measurement-api-21.2.1/AndroidManifest.xml:25:22-76
+76    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+76-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/rohitchahal/.gradle/caches/transforms-3/d79ba178aafe3ccae7ac880a9a63bf8f/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:26:5-110
+76-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/rohitchahal/.gradle/caches/transforms-3/d79ba178aafe3ccae7ac880a9a63bf8f/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:26:22-107
+77    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+77-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:25:5-81
+77-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:25:22-78
+78
+79    <permission
+79-->[androidx.core:core:1.12.0-alpha05] /Users/rohitchahal/.gradle/caches/transforms-3/963c0c3a1b0e49222d433601195cad7b/transformed/core-1.12.0-alpha05/AndroidManifest.xml:22:5-24:47
+80        android:name="com.pravisht.MhbMobile.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+80-->[androidx.core:core:1.12.0-alpha05] /Users/rohitchahal/.gradle/caches/transforms-3/963c0c3a1b0e49222d433601195cad7b/transformed/core-1.12.0-alpha05/AndroidManifest.xml:23:9-81
+81        android:protectionLevel="signature" />
+81-->[androidx.core:core:1.12.0-alpha05] /Users/rohitchahal/.gradle/caches/transforms-3/963c0c3a1b0e49222d433601195cad7b/transformed/core-1.12.0-alpha05/AndroidManifest.xml:24:9-44
+82
+83    <uses-permission android:name="com.pravisht.MhbMobile.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+83-->[androidx.core:core:1.12.0-alpha05] /Users/rohitchahal/.gradle/caches/transforms-3/963c0c3a1b0e49222d433601195cad7b/transformed/core-1.12.0-alpha05/AndroidManifest.xml:26:5-97
+83-->[androidx.core:core:1.12.0-alpha05] /Users/rohitchahal/.gradle/caches/transforms-3/963c0c3a1b0e49222d433601195cad7b/transformed/core-1.12.0-alpha05/AndroidManifest.xml:26:22-94
+84    <uses-permission android:name="android.permission.VIBRATE" />
+84-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:13:5-66
+84-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:13:22-63
+85    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+85-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:16:5-81
+85-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:16:22-78
+86    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+86-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:17:5-79
+86-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:17:22-76
+87    <uses-permission
+87-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:18:5-20:38
+88        android:name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS"
+88-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:19:9-73
+89        android:maxSdkVersion="30" /> <!-- For Xiaomi devices to enable heads-up notifications as default (https://github.com/invertase/notifee/issues/296) -->
+89-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:20:9-35
+90    <uses-permission
+90-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:22:5-24:38
+91        android:name="android.permission.ACCESS_NOTIFICATION_POLICY"
+91-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:23:9-69
+92        android:minSdkVersion="23" />
+92-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:24:9-35
+93
+94    <application
+94-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:12:5-41:19
+95        android:name="com.pravisht.MhbMobile.MainApplication"
+95-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:13:7-38
+96        android:allowBackup="false"
+96-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:17:7-34
+97        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+97-->[androidx.core:core:1.12.0-alpha05] /Users/rohitchahal/.gradle/caches/transforms-3/963c0c3a1b0e49222d433601195cad7b/transformed/core-1.12.0-alpha05/AndroidManifest.xml:28:18-86
+98        android:debuggable="true"
+99        android:extractNativeLibs="false"
+100        android:icon="@mipmap/ic_launcher"
+100-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:15:7-41
+101        android:label="@string/app_name"
+101-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:14:7-39
+102        android:networkSecurityConfig="@xml/network_security_config"
+102-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:19:7-67
+103        android:roundIcon="@mipmap/ic_launcher_round"
+103-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:16:7-52
+104        android:theme="@style/AppTheme"
+104-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:18:7-38
+105        android:usesCleartextTraffic="true" >
+105-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/debug/AndroidManifest.xml:8:9-44
+106        <activity
+106-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/debug/AndroidManifest.xml:12:9-111
+107            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+107-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/debug/AndroidManifest.xml:12:19-83
+108            android:exported="false" />
+108-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/debug/AndroidManifest.xml:12:84-108
+109        <activity
+109-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:20:7-29:18
+110            android:name="com.pravisht.MhbMobile.SplashActivity"
+110-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:21:9-39
+111            android:exported="true"
+111-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:24:9-32
+112            android:label="@string/app_name"
+112-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:23:9-41
+113            android:theme="@style/SplashTheme" >
+113-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:22:9-43
+114            <intent-filter>
+114-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:25:11-28:27
+115                <action android:name="android.intent.action.MAIN" />
+115-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:26:13-65
+115-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:26:21-62
+116
+117                <category android:name="android.intent.category.LAUNCHER" />
+117-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:27:13-73
+117-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:27:23-70
+118            </intent-filter>
+119        </activity>
+120        <activity
+120-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:30:7-37:18
+121            android:name="com.pravisht.MhbMobile.MainActivity"
+121-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:31:9-37
+122            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+122-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:33:9-118
+123            android:exported="true"
+123-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:36:9-32
+124            android:label="@string/app_name"
+124-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:32:9-41
+125            android:launchMode="singleTask"
+125-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:34:9-40
+126            android:windowSoftInputMode="adjustResize" >
+126-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:35:9-51
+127        </activity>
+128
+129        <meta-data
+129-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:38:7-40:80
+130            android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME"
+130-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:39:9-89
+131            android:value="com.reactnative.googlecast.GoogleCastOptionsProvider" />
+131-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:40:9-77
+132
+133        <provider
+133-->[:notifee_react-native] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:40
+134            android:name="io.invertase.notifee.NotifeeInitProvider"
+134-->[:notifee_react-native] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-68
+135            android:authorities="com.pravisht.MhbMobile.notifee-init-provider"
+135-->[:notifee_react-native] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-73
+136            android:exported="false"
+136-->[:notifee_react-native] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+137            android:initOrder="-100" />
+137-->[:notifee_react-native] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-37
+138
+139        <meta-data
+139-->[:react-native-firebase_analytics] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:36
+140            android:name="firebase_analytics_collection_enabled"
+140-->[:react-native-firebase_analytics] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-65
+141            android:value="true" />
+141-->[:react-native-firebase_analytics] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-33
+142        <meta-data
+142-->[:react-native-firebase_analytics] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-19:37
+143            android:name="firebase_analytics_collection_deactivated"
+143-->[:react-native-firebase_analytics] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-69
+144            android:value="false" />
+144-->[:react-native-firebase_analytics] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-34
+145        <meta-data
+145-->[:react-native-firebase_analytics] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-22:36
+146            android:name="google_analytics_adid_collection_enabled"
+146-->[:react-native-firebase_analytics] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-68
+147            android:value="true" />
+147-->[:react-native-firebase_analytics] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-33
+148        <meta-data
+148-->[:react-native-firebase_analytics] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-25:36
+149            android:name="google_analytics_ssaid_collection_enabled"
+149-->[:react-native-firebase_analytics] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-69
+150            android:value="true" />
+150-->[:react-native-firebase_analytics] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-33
+151        <meta-data
+151-->[:react-native-firebase_analytics] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-28:36
+152            android:name="google_analytics_default_allow_ad_personalization_signals"
+152-->[:react-native-firebase_analytics] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-85
+153            android:value="true" />
+153-->[:react-native-firebase_analytics] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-33
+154        <meta-data
+154-->[:react-native-firebase_analytics] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:9-31:36
+155            android:name="google_analytics_automatic_screen_reporting_enabled"
+155-->[:react-native-firebase_analytics] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-79
+156            android:value="true" /> <!-- Disable crashlytics by default so we can custom init with CrashlyticsNdk support -->
+156-->[:react-native-firebase_analytics] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-33
+157        <meta-data
+157-->[:react-native-firebase_crashlytics] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-14:37
+158            android:name="firebase_crashlytics_collection_enabled"
+158-->[:react-native-firebase_crashlytics] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-67
+159            android:value="false" />
+159-->[:react-native-firebase_crashlytics] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-34
+160
+161        <provider
+161-->[:react-native-firebase_crashlytics] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-20:38
+162            android:name="io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider"
+162-->[:react-native-firebase_crashlytics] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-104
+163            android:authorities="com.pravisht.MhbMobile.reactnativefirebasecrashlyticsinitprovider"
+163-->[:react-native-firebase_crashlytics] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-94
+164            android:exported="false"
+164-->[:react-native-firebase_crashlytics] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+165            android:initOrder="98" />
+165-->[:react-native-firebase_crashlytics] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-35
+166
+167        <service
+167-->[:react-native-firebase_messaging] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:40
+168            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService"
+168-->[:react-native-firebase_messaging] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-103
+169            android:exported="false" />
+169-->[:react-native-firebase_messaging] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+170        <service
+170-->[:react-native-firebase_messaging] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-23:19
+171            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+171-->[:react-native-firebase_messaging] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-95
+172            android:exported="false" >
+172-->[:react-native-firebase_messaging] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+173            <intent-filter>
+173-->[:react-native-firebase_messaging] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:29
+174                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+174-->[:react-native-firebase_messaging] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-78
+174-->[:react-native-firebase_messaging] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-75
+175            </intent-filter>
+176        </service>
+177
+178        <receiver
+178-->[:react-native-firebase_messaging] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-32:20
+179            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+179-->[:react-native-firebase_messaging] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-96
+180            android:exported="true"
+180-->[:react-native-firebase_messaging] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-36
+181            android:permission="com.google.android.c2dm.permission.SEND" >
+181-->[:react-native-firebase_messaging] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-73
+182            <intent-filter>
+182-->[:react-native-firebase_messaging] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
+183                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+183-->[:react-native-firebase_messaging] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-81
+183-->[:react-native-firebase_messaging] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-78
+184            </intent-filter>
+185        </receiver>
+186
+187        <meta-data
+187-->[:react-native-firebase_messaging] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-36:36
+188            android:name="firebase_messaging_auto_init_enabled"
+188-->[:react-native-firebase_messaging] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-64
+189            android:value="true" />
+189-->[:react-native-firebase_messaging] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-33
+190        <meta-data
+190-->[:react-native-firebase_messaging] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-39:32
+191            android:name="com.google.firebase.messaging.default_notification_channel_id"
+191-->[:react-native-firebase_messaging] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-89
+192            android:value="" />
+192-->[:react-native-firebase_messaging] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-29
+193        <meta-data
+193-->[:react-native-firebase_messaging] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:9-42:47
+194            android:name="com.google.firebase.messaging.default_notification_color"
+194-->[:react-native-firebase_messaging] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-84
+195            android:resource="@color/white" />
+195-->[:react-native-firebase_messaging] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-44
+196        <meta-data
+196-->[:react-native-firebase_app] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-13:36
+197            android:name="app_data_collection_default_enabled"
+197-->[:react-native-firebase_app] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-63
+198            android:value="true" />
+198-->[:react-native-firebase_app] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-33
+199
+200        <service
+200-->[:react-native-firebase_app] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-23:19
+201            android:name="com.google.firebase.components.ComponentDiscoveryService"
+201-->[:react-native-firebase_app] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-84
+202            android:directBootAware="true"
+202-->[:react-native-firebase_app] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-43
+203            android:exported="false" >
+203-->[:react-native-firebase_app] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+204            <meta-data
+204-->[:react-native-firebase_app] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:85
+205                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+205-->[:react-native-firebase_app] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-120
+206                android:value="com.google.firebase.components.ComponentRegistrar" />
+206-->[:react-native-firebase_app] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-82
+207            <meta-data
+207-->[com.google.firebase:firebase-messaging:23.1.2] /Users/rohitchahal/.gradle/caches/transforms-3/838f7be2d82edc5a8ffd30e371c33f08/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:55:13-57:85
+208                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+208-->[com.google.firebase:firebase-messaging:23.1.2] /Users/rohitchahal/.gradle/caches/transforms-3/838f7be2d82edc5a8ffd30e371c33f08/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:56:17-119
+209                android:value="com.google.firebase.components.ComponentRegistrar" />
+209-->[com.google.firebase:firebase-messaging:23.1.2] /Users/rohitchahal/.gradle/caches/transforms-3/838f7be2d82edc5a8ffd30e371c33f08/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:57:17-82
+210            <meta-data
+210-->[com.google.firebase:firebase-database:20.1.0] /Users/rohitchahal/.gradle/caches/transforms-3/9b79440f82a60bc11da8dc5719fa8a55/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:31:13-33:85
+211                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+211-->[com.google.firebase:firebase-database:20.1.0] /Users/rohitchahal/.gradle/caches/transforms-3/9b79440f82a60bc11da8dc5719fa8a55/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:32:17-109
+212                android:value="com.google.firebase.components.ComponentRegistrar" />
+212-->[com.google.firebase:firebase-database:20.1.0] /Users/rohitchahal/.gradle/caches/transforms-3/9b79440f82a60bc11da8dc5719fa8a55/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:33:17-82
+213            <meta-data
+213-->[com.google.firebase:firebase-crashlytics-ndk:18.3.6] /Users/rohitchahal/.gradle/caches/transforms-3/1456b97c98b2aca7167144be8a51cfa0/transformed/jetified-firebase-crashlytics-ndk-18.3.6/AndroidManifest.xml:34:13-36:85
+214                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ndk.CrashlyticsNdkRegistrar"
+214-->[com.google.firebase:firebase-crashlytics-ndk:18.3.6] /Users/rohitchahal/.gradle/caches/transforms-3/1456b97c98b2aca7167144be8a51cfa0/transformed/jetified-firebase-crashlytics-ndk-18.3.6/AndroidManifest.xml:35:17-122
+215                android:value="com.google.firebase.components.ComponentRegistrar" />
+215-->[com.google.firebase:firebase-crashlytics-ndk:18.3.6] /Users/rohitchahal/.gradle/caches/transforms-3/1456b97c98b2aca7167144be8a51cfa0/transformed/jetified-firebase-crashlytics-ndk-18.3.6/AndroidManifest.xml:36:17-82
+216            <meta-data
+216-->[com.google.firebase:firebase-crashlytics:18.3.6] /Users/rohitchahal/.gradle/caches/transforms-3/2a4ce3e4aae6ad6e7827bc1d7657521d/transformed/jetified-firebase-crashlytics-18.3.6/AndroidManifest.xml:17:13-19:85
+217                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+217-->[com.google.firebase:firebase-crashlytics:18.3.6] /Users/rohitchahal/.gradle/caches/transforms-3/2a4ce3e4aae6ad6e7827bc1d7657521d/transformed/jetified-firebase-crashlytics-18.3.6/AndroidManifest.xml:18:17-115
+218                android:value="com.google.firebase.components.ComponentRegistrar" />
+218-->[com.google.firebase:firebase-crashlytics:18.3.6] /Users/rohitchahal/.gradle/caches/transforms-3/2a4ce3e4aae6ad6e7827bc1d7657521d/transformed/jetified-firebase-crashlytics-18.3.6/AndroidManifest.xml:19:17-82
+219            <meta-data
+219-->[com.google.android.gms:play-services-measurement-api:21.2.1] /Users/rohitchahal/.gradle/caches/transforms-3/0738357376f59691933dc3ed984dfff2/transformed/jetified-play-services-measurement-api-21.2.1/AndroidManifest.xml:31:13-33:85
+220                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+220-->[com.google.android.gms:play-services-measurement-api:21.2.1] /Users/rohitchahal/.gradle/caches/transforms-3/0738357376f59691933dc3ed984dfff2/transformed/jetified-play-services-measurement-api-21.2.1/AndroidManifest.xml:32:17-139
+221                android:value="com.google.firebase.components.ComponentRegistrar" />
+221-->[com.google.android.gms:play-services-measurement-api:21.2.1] /Users/rohitchahal/.gradle/caches/transforms-3/0738357376f59691933dc3ed984dfff2/transformed/jetified-play-services-measurement-api-21.2.1/AndroidManifest.xml:33:17-82
+222            <meta-data
+222-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/rohitchahal/.gradle/caches/transforms-3/95a821aa8b698ccffd10407da4778013/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+223                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+223-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/rohitchahal/.gradle/caches/transforms-3/95a821aa8b698ccffd10407da4778013/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+224                android:value="com.google.firebase.components.ComponentRegistrar" />
+224-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/rohitchahal/.gradle/caches/transforms-3/95a821aa8b698ccffd10407da4778013/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+225            <meta-data
+225-->[com.google.firebase:firebase-installations:17.1.3] /Users/rohitchahal/.gradle/caches/transforms-3/9aeef0369e9e3195f4da1f1b41135053/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+226                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+226-->[com.google.firebase:firebase-installations:17.1.3] /Users/rohitchahal/.gradle/caches/transforms-3/9aeef0369e9e3195f4da1f1b41135053/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+227                android:value="com.google.firebase.components.ComponentRegistrar" />
+227-->[com.google.firebase:firebase-installations:17.1.3] /Users/rohitchahal/.gradle/caches/transforms-3/9aeef0369e9e3195f4da1f1b41135053/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+228        </service>
+229
+230        <provider
+230-->[:react-native-firebase_app] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-29:38
+231            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+231-->[:react-native-firebase_app] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-88
+232            android:authorities="com.pravisht.MhbMobile.reactnativefirebaseappinitprovider"
+232-->[:react-native-firebase_app] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-86
+233            android:exported="false"
+233-->[:react-native-firebase_app] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-37
+234            android:initOrder="99" />
+234-->[:react-native-firebase_app] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-35
+235        <provider
+235-->[:react-native-image-picker] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+236            android:name="com.imagepicker.ImagePickerProvider"
+236-->[:react-native-image-picker] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
+237            android:authorities="com.pravisht.MhbMobile.imagepickerprovider"
+237-->[:react-native-image-picker] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-71
+238            android:exported="false"
+238-->[:react-native-image-picker] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+239            android:grantUriPermissions="true" >
+239-->[:react-native-image-picker] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+240            <meta-data
+240-->[:react-native-image-picker] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:70
+241                android:name="android.support.FILE_PROVIDER_PATHS"
+241-->[:react-native-image-picker] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+242                android:resource="@xml/imagepicker_provider_paths" />
+242-->[:react-native-image-picker] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
+243        </provider>
+244        <provider
+244-->[:react-native-webview] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+245            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+245-->[:react-native-webview] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-83
+246            android:authorities="com.pravisht.MhbMobile.fileprovider"
+246-->[:react-native-webview] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-64
+247            android:exported="false"
+247-->[:react-native-webview] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+248            android:grantUriPermissions="true" >
+248-->[:react-native-webview] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+249            <meta-data
+249-->[:react-native-image-picker] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:70
+250                android:name="android.support.FILE_PROVIDER_PATHS"
+250-->[:react-native-image-picker] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+251                android:resource="@xml/file_provider_paths" />
+251-->[:react-native-image-picker] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
+252        </provider>
+253        <provider
+253-->[:rn-fetch-blob] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-42:20
+254            android:name="com.RNFetchBlob.Utils.FileProvider"
+254-->[:rn-fetch-blob] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-62
+255            android:authorities="com.pravisht.MhbMobile.provider"
+255-->[:rn-fetch-blob] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-60
+256            android:exported="false"
+256-->[:rn-fetch-blob] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-37
+257            android:grantUriPermissions="true" >
+257-->[:rn-fetch-blob] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-47
+258            <meta-data
+258-->[:react-native-image-picker] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:70
+259                android:name="android.support.FILE_PROVIDER_PATHS"
+259-->[:react-native-image-picker] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+260                android:resource="@xml/provider_paths" />
+260-->[:react-native-image-picker] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
+261        </provider>
+262
+263        <activity
+263-->[:react-native-razorpay] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:86
+264            android:name="com.razorpay.CheckoutActivity"
+264-->[:react-native-razorpay] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-57
+265            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+265-->[:react-native-razorpay] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-83
+266            android:exported="false"
+266-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:54:13-37
+267            android:theme="@style/CheckoutTheme" >
+267-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:55:13-49
+268            <intent-filter>
+268-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:56:13-58:29
+269                <action android:name="android.intent.action.MAIN" />
+269-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:26:13-65
+269-->/Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/android/app/src/main/AndroidManifest.xml:26:21-62
+270            </intent-filter>
+271        </activity>
+272
+273        <receiver
+273-->[com.google.android.gms:play-services-cast-framework:21.5.0] /Users/rohitchahal/.gradle/caches/transforms-3/49454b3a7fc90769a400c52446a1d29c/transformed/jetified-play-services-cast-framework-21.5.0/AndroidManifest.xml:15:9-125
+274            android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver"
+274-->[com.google.android.gms:play-services-cast-framework:21.5.0] /Users/rohitchahal/.gradle/caches/transforms-3/49454b3a7fc90769a400c52446a1d29c/transformed/jetified-play-services-cast-framework-21.5.0/AndroidManifest.xml:15:19-97
+275            android:exported="false" />
+275-->[com.google.android.gms:play-services-cast-framework:21.5.0] /Users/rohitchahal/.gradle/caches/transforms-3/49454b3a7fc90769a400c52446a1d29c/transformed/jetified-play-services-cast-framework-21.5.0/AndroidManifest.xml:15:98-122
+276
+277        <service
+277-->[com.google.android.gms:play-services-cast-framework:21.5.0] /Users/rohitchahal/.gradle/caches/transforms-3/49454b3a7fc90769a400c52446a1d29c/transformed/jetified-play-services-cast-framework-21.5.0/AndroidManifest.xml:17:9-118
+278            android:name="com.google.android.gms.cast.framework.ReconnectionService"
+278-->[com.google.android.gms:play-services-cast-framework:21.5.0] /Users/rohitchahal/.gradle/caches/transforms-3/49454b3a7fc90769a400c52446a1d29c/transformed/jetified-play-services-cast-framework-21.5.0/AndroidManifest.xml:17:18-90
+279            android:exported="false" />
+279-->[com.google.android.gms:play-services-cast-framework:21.5.0] /Users/rohitchahal/.gradle/caches/transforms-3/49454b3a7fc90769a400c52446a1d29c/transformed/jetified-play-services-cast-framework-21.5.0/AndroidManifest.xml:17:91-115
+280
+281        <meta-data
+281-->[com.facebook.soloader:soloader:0.10.5] /Users/rohitchahal/.gradle/caches/transforms-3/fbe809750f443f5d28880ee7d03f4d85/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
+282            android:name="com.facebook.soloader.enabled"
+282-->[com.facebook.soloader:soloader:0.10.5] /Users/rohitchahal/.gradle/caches/transforms-3/fbe809750f443f5d28880ee7d03f4d85/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
+283            android:value="false" />
+283-->[com.facebook.soloader:soloader:0.10.5] /Users/rohitchahal/.gradle/caches/transforms-3/fbe809750f443f5d28880ee7d03f4d85/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
+284
+285        <service
+285-->[androidx.health.connect:connect-client:1.1.0-alpha04] /Users/rohitchahal/.gradle/caches/transforms-3/725408494c1fbfcea02890ad7addf3f7/transformed/jetified-connect-client-1.1.0-alpha04/AndroidManifest.xml:24:9-32:19
+286            android:name="androidx.health.platform.client.impl.sdkservice.HealthDataSdkService"
+286-->[androidx.health.connect:connect-client:1.1.0-alpha04] /Users/rohitchahal/.gradle/caches/transforms-3/725408494c1fbfcea02890ad7addf3f7/transformed/jetified-connect-client-1.1.0-alpha04/AndroidManifest.xml:25:13-96
+287            android:enabled="true"
+287-->[androidx.health.connect:connect-client:1.1.0-alpha04] /Users/rohitchahal/.gradle/caches/transforms-3/725408494c1fbfcea02890ad7addf3f7/transformed/jetified-connect-client-1.1.0-alpha04/AndroidManifest.xml:26:13-35
+288            android:exported="true" >
+288-->[androidx.health.connect:connect-client:1.1.0-alpha04] /Users/rohitchahal/.gradle/caches/transforms-3/725408494c1fbfcea02890ad7addf3f7/transformed/jetified-connect-client-1.1.0-alpha04/AndroidManifest.xml:27:13-36
+289            <intent-filter>
+289-->[androidx.health.connect:connect-client:1.1.0-alpha04] /Users/rohitchahal/.gradle/caches/transforms-3/725408494c1fbfcea02890ad7addf3f7/transformed/jetified-connect-client-1.1.0-alpha04/AndroidManifest.xml:29:13-31:29
+290                <action android:name="androidx.health.platform.client.ACTION_BIND_SDK_SERVICE" />
+290-->[androidx.health.connect:connect-client:1.1.0-alpha04] /Users/rohitchahal/.gradle/caches/transforms-3/725408494c1fbfcea02890ad7addf3f7/transformed/jetified-connect-client-1.1.0-alpha04/AndroidManifest.xml:30:17-98
+290-->[androidx.health.connect:connect-client:1.1.0-alpha04] /Users/rohitchahal/.gradle/caches/transforms-3/725408494c1fbfcea02890ad7addf3f7/transformed/jetified-connect-client-1.1.0-alpha04/AndroidManifest.xml:30:25-95
+291            </intent-filter>
+292        </service>
+293        <service
+293-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/rohitchahal/.gradle/caches/transforms-3/fade5781cc76a66ecba0cb4c47d3eea0/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:9:9-15:19
+294            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+294-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/rohitchahal/.gradle/caches/transforms-3/fade5781cc76a66ecba0cb4c47d3eea0/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:10:13-91
+295            android:directBootAware="true"
+295-->[com.google.mlkit:common:17.2.0] /Users/rohitchahal/.gradle/caches/transforms-3/7b07a35b51dd31de00bd1255ad2d9be4/transformed/jetified-common-17.2.0/AndroidManifest.xml:17:13-43
+296            android:exported="false" >
+296-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/rohitchahal/.gradle/caches/transforms-3/fade5781cc76a66ecba0cb4c47d3eea0/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:11:13-37
+297            <meta-data
+297-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/rohitchahal/.gradle/caches/transforms-3/fade5781cc76a66ecba0cb4c47d3eea0/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:12:13-14:85
+298                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+298-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/rohitchahal/.gradle/caches/transforms-3/fade5781cc76a66ecba0cb4c47d3eea0/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:13:17-120
+299                android:value="com.google.firebase.components.ComponentRegistrar" />
+299-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/rohitchahal/.gradle/caches/transforms-3/fade5781cc76a66ecba0cb4c47d3eea0/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:14:17-82
+300            <meta-data
+300-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/rohitchahal/.gradle/caches/transforms-3/65384c8ccab9070eb554b9c11b85844e/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:12:13-14:85
+301                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+301-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/rohitchahal/.gradle/caches/transforms-3/65384c8ccab9070eb554b9c11b85844e/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:13:17-114
+302                android:value="com.google.firebase.components.ComponentRegistrar" />
+302-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/rohitchahal/.gradle/caches/transforms-3/65384c8ccab9070eb554b9c11b85844e/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:14:17-82
+303            <meta-data
+303-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/rohitchahal/.gradle/caches/transforms-3/5fcca0702b84f1373b5db956a2df175b/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:12:13-14:85
+304                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+304-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/rohitchahal/.gradle/caches/transforms-3/5fcca0702b84f1373b5db956a2df175b/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:13:17-114
+305                android:value="com.google.firebase.components.ComponentRegistrar" />
+305-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/rohitchahal/.gradle/caches/transforms-3/5fcca0702b84f1373b5db956a2df175b/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:14:17-82
+306            <meta-data
+306-->[com.google.mlkit:vision-common:16.5.0] /Users/rohitchahal/.gradle/caches/transforms-3/4fc192e7a21ea578808d598f6c7406ef/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:12:13-14:85
+307                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+307-->[com.google.mlkit:vision-common:16.5.0] /Users/rohitchahal/.gradle/caches/transforms-3/4fc192e7a21ea578808d598f6c7406ef/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:13:17-124
+308                android:value="com.google.firebase.components.ComponentRegistrar" />
+308-->[com.google.mlkit:vision-common:16.5.0] /Users/rohitchahal/.gradle/caches/transforms-3/4fc192e7a21ea578808d598f6c7406ef/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:14:17-82
+309            <meta-data
+309-->[com.google.mlkit:common:17.2.0] /Users/rohitchahal/.gradle/caches/transforms-3/7b07a35b51dd31de00bd1255ad2d9be4/transformed/jetified-common-17.2.0/AndroidManifest.xml:20:13-22:85
+310                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+310-->[com.google.mlkit:common:17.2.0] /Users/rohitchahal/.gradle/caches/transforms-3/7b07a35b51dd31de00bd1255ad2d9be4/transformed/jetified-common-17.2.0/AndroidManifest.xml:21:17-120
+311                android:value="com.google.firebase.components.ComponentRegistrar" />
+311-->[com.google.mlkit:common:17.2.0] /Users/rohitchahal/.gradle/caches/transforms-3/7b07a35b51dd31de00bd1255ad2d9be4/transformed/jetified-common-17.2.0/AndroidManifest.xml:22:17-82
+312        </service>
+313
+314        <receiver
+314-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:42:9-49:20
+315            android:name="com.razorpay.RzpTokenReceiver"
+315-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:43:13-57
+316            android:exported="true" >
+316-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:44:13-36
+317            <intent-filter>
+317-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:46:13-48:29
+318                <action android:name="rzp.device_token.share" />
+318-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:37:13-61
+318-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:37:21-58
+319            </intent-filter>
+320        </receiver>
+321
+322        <meta-data
+322-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:61:9-63:58
+323            android:name="com.razorpay.plugin.googlepay_all"
+323-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:62:13-61
+324            android:value="com.razorpay.RzpGpayMerged" />
+324-->[com.razorpay:checkout:1.6.39] /Users/rohitchahal/.gradle/caches/transforms-3/eae5398a972239702eadb6b2946b9505/transformed/jetified-checkout-1.6.39/AndroidManifest.xml:63:13-55
+325
+326        <activity
+326-->[com.google.android.gms:play-services-auth:21.2.0] /Users/rohitchahal/.gradle/caches/transforms-3/8286634cbcc4c61bcc756f33c0501b34/transformed/jetified-play-services-auth-21.2.0/AndroidManifest.xml:23:9-27:75
+327            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+327-->[com.google.android.gms:play-services-auth:21.2.0] /Users/rohitchahal/.gradle/caches/transforms-3/8286634cbcc4c61bcc756f33c0501b34/transformed/jetified-play-services-auth-21.2.0/AndroidManifest.xml:24:13-93
+328            android:excludeFromRecents="true"
+328-->[com.google.android.gms:play-services-auth:21.2.0] /Users/rohitchahal/.gradle/caches/transforms-3/8286634cbcc4c61bcc756f33c0501b34/transformed/jetified-play-services-auth-21.2.0/AndroidManifest.xml:25:13-46
+329            android:exported="false"
+329-->[com.google.android.gms:play-services-auth:21.2.0] /Users/rohitchahal/.gradle/caches/transforms-3/8286634cbcc4c61bcc756f33c0501b34/transformed/jetified-play-services-auth-21.2.0/AndroidManifest.xml:26:13-37
+330            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+330-->[com.google.android.gms:play-services-auth:21.2.0] /Users/rohitchahal/.gradle/caches/transforms-3/8286634cbcc4c61bcc756f33c0501b34/transformed/jetified-play-services-auth-21.2.0/AndroidManifest.xml:27:13-72
+331        <!--
+332            Service handling Google Sign-In user revocation. For apps that do not integrate with
+333            Google Sign-In, this service will never be started.
+334        -->
+335        <service
+335-->[com.google.android.gms:play-services-auth:21.2.0] /Users/rohitchahal/.gradle/caches/transforms-3/8286634cbcc4c61bcc756f33c0501b34/transformed/jetified-play-services-auth-21.2.0/AndroidManifest.xml:33:9-37:51
+336            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+336-->[com.google.android.gms:play-services-auth:21.2.0] /Users/rohitchahal/.gradle/caches/transforms-3/8286634cbcc4c61bcc756f33c0501b34/transformed/jetified-play-services-auth-21.2.0/AndroidManifest.xml:34:13-89
+337            android:exported="true"
+337-->[com.google.android.gms:play-services-auth:21.2.0] /Users/rohitchahal/.gradle/caches/transforms-3/8286634cbcc4c61bcc756f33c0501b34/transformed/jetified-play-services-auth-21.2.0/AndroidManifest.xml:35:13-36
+338            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+338-->[com.google.android.gms:play-services-auth:21.2.0] /Users/rohitchahal/.gradle/caches/transforms-3/8286634cbcc4c61bcc756f33c0501b34/transformed/jetified-play-services-auth-21.2.0/AndroidManifest.xml:36:13-107
+339            android:visibleToInstantApps="true" />
+339-->[com.google.android.gms:play-services-auth:21.2.0] /Users/rohitchahal/.gradle/caches/transforms-3/8286634cbcc4c61bcc756f33c0501b34/transformed/jetified-play-services-auth-21.2.0/AndroidManifest.xml:37:13-48
+340
+341        <meta-data
+341-->[com.google.android.gms:play-services-fitness:21.2.0] /Users/rohitchahal/.gradle/caches/transforms-3/895dadc5e3fc0e8e8327548c21061211/transformed/jetified-play-services-fitness-21.2.0/AndroidManifest.xml:23:9-25:38
+342            android:name="com.google.gms.fitness.sdk.version"
+342-->[com.google.android.gms:play-services-fitness:21.2.0] /Users/rohitchahal/.gradle/caches/transforms-3/895dadc5e3fc0e8e8327548c21061211/transformed/jetified-play-services-fitness-21.2.0/AndroidManifest.xml:24:13-62
+343            android:value="21.2.0" />
+343-->[com.google.android.gms:play-services-fitness:21.2.0] /Users/rohitchahal/.gradle/caches/transforms-3/895dadc5e3fc0e8e8327548c21061211/transformed/jetified-play-services-fitness-21.2.0/AndroidManifest.xml:25:13-35
+344
+345        <receiver
+345-->[com.google.firebase:firebase-messaging:23.1.2] /Users/rohitchahal/.gradle/caches/transforms-3/838f7be2d82edc5a8ffd30e371c33f08/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:31:9-38:20
+346            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+346-->[com.google.firebase:firebase-messaging:23.1.2] /Users/rohitchahal/.gradle/caches/transforms-3/838f7be2d82edc5a8ffd30e371c33f08/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:32:13-78
+347            android:exported="true"
+347-->[com.google.firebase:firebase-messaging:23.1.2] /Users/rohitchahal/.gradle/caches/transforms-3/838f7be2d82edc5a8ffd30e371c33f08/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:33:13-36
+348            android:permission="com.google.android.c2dm.permission.SEND" >
+348-->[com.google.firebase:firebase-messaging:23.1.2] /Users/rohitchahal/.gradle/caches/transforms-3/838f7be2d82edc5a8ffd30e371c33f08/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:34:13-73
+349            <intent-filter>
+349-->[:react-native-firebase_messaging] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
+350                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+350-->[:react-native-firebase_messaging] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-81
+350-->[:react-native-firebase_messaging] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-78
+351            </intent-filter>
+352        </receiver>
+353        <!--
+354             FirebaseMessagingService performs security checks at runtime,
+355             but set to not exported to explicitly avoid allowing another app to call it.
+356        -->
+357        <service
+357-->[com.google.firebase:firebase-messaging:23.1.2] /Users/rohitchahal/.gradle/caches/transforms-3/838f7be2d82edc5a8ffd30e371c33f08/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:44:9-51:19
+358            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+358-->[com.google.firebase:firebase-messaging:23.1.2] /Users/rohitchahal/.gradle/caches/transforms-3/838f7be2d82edc5a8ffd30e371c33f08/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:45:13-82
+359            android:directBootAware="true"
+359-->[com.google.firebase:firebase-messaging:23.1.2] /Users/rohitchahal/.gradle/caches/transforms-3/838f7be2d82edc5a8ffd30e371c33f08/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:46:13-43
+360            android:exported="false" >
+360-->[com.google.firebase:firebase-messaging:23.1.2] /Users/rohitchahal/.gradle/caches/transforms-3/838f7be2d82edc5a8ffd30e371c33f08/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:47:13-37
+361            <intent-filter android:priority="-500" >
+361-->[:react-native-firebase_messaging] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:29
+362                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+362-->[:react-native-firebase_messaging] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-78
+362-->[:react-native-firebase_messaging] /Users/rohitchahal/Documents/my-health-buddy-app/apps/mhb-mobile-cli/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-75
+363            </intent-filter>
+364        </service>
+365
+366        <provider
+366-->[com.google.mlkit:common:17.2.0] /Users/rohitchahal/.gradle/caches/transforms-3/7b07a35b51dd31de00bd1255ad2d9be4/transformed/jetified-common-17.2.0/AndroidManifest.xml:9:9-13:38
+367            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+367-->[com.google.mlkit:common:17.2.0] /Users/rohitchahal/.gradle/caches/transforms-3/7b07a35b51dd31de00bd1255ad2d9be4/transformed/jetified-common-17.2.0/AndroidManifest.xml:10:13-78
+368            android:authorities="com.pravisht.MhbMobile.mlkitinitprovider"
+368-->[com.google.mlkit:common:17.2.0] /Users/rohitchahal/.gradle/caches/transforms-3/7b07a35b51dd31de00bd1255ad2d9be4/transformed/jetified-common-17.2.0/AndroidManifest.xml:11:13-69
+369            android:exported="false"
+369-->[com.google.mlkit:common:17.2.0] /Users/rohitchahal/.gradle/caches/transforms-3/7b07a35b51dd31de00bd1255ad2d9be4/transformed/jetified-common-17.2.0/AndroidManifest.xml:12:13-37
+370            android:initOrder="99" /> <!-- Needs to be explicitly declared on P+ -->
+370-->[com.google.mlkit:common:17.2.0] /Users/rohitchahal/.gradle/caches/transforms-3/7b07a35b51dd31de00bd1255ad2d9be4/transformed/jetified-common-17.2.0/AndroidManifest.xml:13:13-35
+371        <uses-library
+371-->[com.google.android.gms:play-services-maps:17.0.0] /Users/rohitchahal/.gradle/caches/transforms-3/6be8cce8db5c184dc0a7da7720c20f3b/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+372            android:name="org.apache.http.legacy"
+372-->[com.google.android.gms:play-services-maps:17.0.0] /Users/rohitchahal/.gradle/caches/transforms-3/6be8cce8db5c184dc0a7da7720c20f3b/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+373            android:required="false" />
+373-->[com.google.android.gms:play-services-maps:17.0.0] /Users/rohitchahal/.gradle/caches/transforms-3/6be8cce8db5c184dc0a7da7720c20f3b/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+374
+375        <activity
+375-->[com.google.android.gms:play-services-base:18.5.0] /Users/rohitchahal/.gradle/caches/transforms-3/21190e43ec5cc8f67af31c44de5274cb/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+376            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+376-->[com.google.android.gms:play-services-base:18.5.0] /Users/rohitchahal/.gradle/caches/transforms-3/21190e43ec5cc8f67af31c44de5274cb/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+377            android:exported="false"
+377-->[com.google.android.gms:play-services-base:18.5.0] /Users/rohitchahal/.gradle/caches/transforms-3/21190e43ec5cc8f67af31c44de5274cb/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+378            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+378-->[com.google.android.gms:play-services-base:18.5.0] /Users/rohitchahal/.gradle/caches/transforms-3/21190e43ec5cc8f67af31c44de5274cb/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+379
+380        <provider
+380-->[com.google.firebase:firebase-common:20.3.2] /Users/rohitchahal/.gradle/caches/transforms-3/4aa8c86f2cd6f693ebe4b6fbc7dc414b/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+381            android:name="com.google.firebase.provider.FirebaseInitProvider"
+381-->[com.google.firebase:firebase-common:20.3.2] /Users/rohitchahal/.gradle/caches/transforms-3/4aa8c86f2cd6f693ebe4b6fbc7dc414b/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+382            android:authorities="com.pravisht.MhbMobile.firebaseinitprovider"
+382-->[com.google.firebase:firebase-common:20.3.2] /Users/rohitchahal/.gradle/caches/transforms-3/4aa8c86f2cd6f693ebe4b6fbc7dc414b/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+383            android:directBootAware="true"
+383-->[com.google.firebase:firebase-common:20.3.2] /Users/rohitchahal/.gradle/caches/transforms-3/4aa8c86f2cd6f693ebe4b6fbc7dc414b/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+384            android:exported="false"
+384-->[com.google.firebase:firebase-common:20.3.2] /Users/rohitchahal/.gradle/caches/transforms-3/4aa8c86f2cd6f693ebe4b6fbc7dc414b/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+385            android:initOrder="100" />
+385-->[com.google.firebase:firebase-common:20.3.2] /Users/rohitchahal/.gradle/caches/transforms-3/4aa8c86f2cd6f693ebe4b6fbc7dc414b/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+386
+387        <receiver
+387-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/rohitchahal/.gradle/caches/transforms-3/d79ba178aafe3ccae7ac880a9a63bf8f/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:29:9-33:20
+388            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+388-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/rohitchahal/.gradle/caches/transforms-3/d79ba178aafe3ccae7ac880a9a63bf8f/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:30:13-85
+389            android:enabled="true"
+389-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/rohitchahal/.gradle/caches/transforms-3/d79ba178aafe3ccae7ac880a9a63bf8f/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:31:13-35
+390            android:exported="false" >
+390-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/rohitchahal/.gradle/caches/transforms-3/d79ba178aafe3ccae7ac880a9a63bf8f/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:32:13-37
+391        </receiver>
+392
+393        <service
+393-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/rohitchahal/.gradle/caches/transforms-3/d79ba178aafe3ccae7ac880a9a63bf8f/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:35:9-38:40
+394            android:name="com.google.android.gms.measurement.AppMeasurementService"
+394-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/rohitchahal/.gradle/caches/transforms-3/d79ba178aafe3ccae7ac880a9a63bf8f/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:36:13-84
+395            android:enabled="true"
+395-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/rohitchahal/.gradle/caches/transforms-3/d79ba178aafe3ccae7ac880a9a63bf8f/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:37:13-35
+396            android:exported="false" />
+396-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/rohitchahal/.gradle/caches/transforms-3/d79ba178aafe3ccae7ac880a9a63bf8f/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:38:13-37
+397        <service
+397-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/rohitchahal/.gradle/caches/transforms-3/d79ba178aafe3ccae7ac880a9a63bf8f/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:39:9-43:72
+398            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+398-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/rohitchahal/.gradle/caches/transforms-3/d79ba178aafe3ccae7ac880a9a63bf8f/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:40:13-87
+399            android:enabled="true"
+399-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/rohitchahal/.gradle/caches/transforms-3/d79ba178aafe3ccae7ac880a9a63bf8f/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:41:13-35
+400            android:exported="false"
+400-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/rohitchahal/.gradle/caches/transforms-3/d79ba178aafe3ccae7ac880a9a63bf8f/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:42:13-37
+401            android:permission="android.permission.BIND_JOB_SERVICE" />
+401-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/rohitchahal/.gradle/caches/transforms-3/d79ba178aafe3ccae7ac880a9a63bf8f/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:43:13-69
+402
+403        <meta-data
+403-->[com.google.android.gms:play-services-basement:18.4.0] /Users/rohitchahal/.gradle/caches/transforms-3/bc6857c595c5297c790415b7129d700a/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+404            android:name="com.google.android.gms.version"
+404-->[com.google.android.gms:play-services-basement:18.4.0] /Users/rohitchahal/.gradle/caches/transforms-3/bc6857c595c5297c790415b7129d700a/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+405            android:value="@integer/google_play_services_version" />
+405-->[com.google.android.gms:play-services-basement:18.4.0] /Users/rohitchahal/.gradle/caches/transforms-3/bc6857c595c5297c790415b7129d700a/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+406        <meta-data
+406-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/rohitchahal/.gradle/caches/transforms-3/b532353aa7504dbd54af89670f344a09/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+407            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+407-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/rohitchahal/.gradle/caches/transforms-3/b532353aa7504dbd54af89670f344a09/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+408            android:value="GlideModule" />
+408-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/rohitchahal/.gradle/caches/transforms-3/b532353aa7504dbd54af89670f344a09/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+409
+410        <provider
+410-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:29:9-37:20
+411            android:name="androidx.startup.InitializationProvider"
+411-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:30:13-67
+412            android:authorities="com.pravisht.MhbMobile.androidx-startup"
+412-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:31:13-68
+413            android:exported="false" >
+413-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:32:13-37
+414            <meta-data
+414-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:34:13-36:52
+415                android:name="androidx.work.WorkManagerInitializer"
+415-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:35:17-68
+416                android:value="androidx.startup" />
+416-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:36:17-49
+417            <meta-data
+417-->[androidx.emoji2:emoji2:1.2.0] /Users/rohitchahal/.gradle/caches/transforms-3/088d6f89f9de89b71a7508ebfc853f86/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+418                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+418-->[androidx.emoji2:emoji2:1.2.0] /Users/rohitchahal/.gradle/caches/transforms-3/088d6f89f9de89b71a7508ebfc853f86/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+419                android:value="androidx.startup" />
+419-->[androidx.emoji2:emoji2:1.2.0] /Users/rohitchahal/.gradle/caches/transforms-3/088d6f89f9de89b71a7508ebfc853f86/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+420            <meta-data
+420-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/rohitchahal/.gradle/caches/transforms-3/adfe97a6e0db99cb96699070102806ae/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+421                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+421-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/rohitchahal/.gradle/caches/transforms-3/adfe97a6e0db99cb96699070102806ae/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+422                android:value="androidx.startup" />
+422-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/rohitchahal/.gradle/caches/transforms-3/adfe97a6e0db99cb96699070102806ae/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+423        </provider>
+424
+425        <service
+425-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:39:9-45:35
+426            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+426-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:40:13-88
+427            android:directBootAware="false"
+427-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:41:13-44
+428            android:enabled="@bool/enable_system_alarm_service_default"
+428-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:42:13-72
+429            android:exported="false" />
+429-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:43:13-37
+430        <service
+430-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:46:9-52:35
+431            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+431-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:47:13-84
+432            android:directBootAware="false"
+432-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:48:13-44
+433            android:enabled="@bool/enable_system_job_service_default"
+433-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:49:13-70
+434            android:exported="true"
+434-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:50:13-36
+435            android:permission="android.permission.BIND_JOB_SERVICE" />
+435-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:51:13-69
+436        <service
+436-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:53:9-59:35
+437            android:name="androidx.work.impl.foreground.SystemForegroundService"
+437-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:54:13-81
+438            android:directBootAware="false"
+438-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:55:13-44
+439            android:enabled="@bool/enable_system_foreground_service_default"
+439-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:56:13-77
+440            android:exported="false" />
+440-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:57:13-37
+441
+442        <receiver
+442-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:61:9-66:35
+443            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+443-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:62:13-88
+444            android:directBootAware="false"
+444-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:63:13-44
+445            android:enabled="true"
+445-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:64:13-35
+446            android:exported="false" />
+446-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:65:13-37
+447        <receiver
+447-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:67:9-77:20
+448            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+448-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:68:13-106
+449            android:directBootAware="false"
+449-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:69:13-44
+450            android:enabled="false"
+450-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:70:13-36
+451            android:exported="false" >
+451-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:71:13-37
+452            <intent-filter>
+452-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:73:13-76:29
+453                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+453-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:74:17-87
+453-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:74:25-84
+454                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+454-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:75:17-90
+454-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:75:25-87
+455            </intent-filter>
+456        </receiver>
+457        <receiver
+457-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:78:9-88:20
+458            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+458-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:79:13-104
+459            android:directBootAware="false"
+459-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:80:13-44
+460            android:enabled="false"
+460-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:81:13-36
+461            android:exported="false" >
+461-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:82:13-37
+462            <intent-filter>
+462-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:84:13-87:29
+463                <action android:name="android.intent.action.BATTERY_OKAY" />
+463-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:85:17-77
+463-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:85:25-74
+464                <action android:name="android.intent.action.BATTERY_LOW" />
+464-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:86:17-76
+464-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:86:25-73
+465            </intent-filter>
+466        </receiver>
+467        <receiver
+467-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:89:9-99:20
+468            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+468-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:90:13-104
+469            android:directBootAware="false"
+469-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:91:13-44
+470            android:enabled="false"
+470-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:92:13-36
+471            android:exported="false" >
+471-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:93:13-37
+472            <intent-filter>
+472-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:95:13-98:29
+473                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+473-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:96:17-83
+473-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:96:25-80
+474                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+474-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:97:17-82
+474-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:97:25-79
+475            </intent-filter>
+476        </receiver>
+477        <receiver
+477-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:100:9-109:20
+478            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+478-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:101:13-103
+479            android:directBootAware="false"
+479-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:102:13-44
+480            android:enabled="false"
+480-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:103:13-36
+481            android:exported="false" >
+481-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:104:13-37
+482            <intent-filter>
+482-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:106:13-108:29
+483                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+483-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:107:17-79
+483-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:107:25-76
+484            </intent-filter>
+485        </receiver>
+486        <receiver
+486-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:110:9-121:20
+487            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+487-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:111:13-88
+488            android:directBootAware="false"
+488-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:112:13-44
+489            android:enabled="false"
+489-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:113:13-36
+490            android:exported="false" >
+490-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:114:13-37
+491            <intent-filter>
+491-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:116:13-120:29
+492                <action android:name="android.intent.action.BOOT_COMPLETED" />
+492-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:117:17-79
+492-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:117:25-76
+493                <action android:name="android.intent.action.TIME_SET" />
+493-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:118:17-73
+493-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:118:25-70
+494                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+494-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:119:17-81
+494-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:119:25-78
+495            </intent-filter>
+496        </receiver>
+497        <receiver
+497-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:122:9-131:20
+498            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+498-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:123:13-99
+499            android:directBootAware="false"
+499-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:124:13-44
+500            android:enabled="@bool/enable_system_alarm_service_default"
+500-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:125:13-72
+501            android:exported="false" >
+501-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:126:13-37
+502            <intent-filter>
+502-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:128:13-130:29
+503                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+503-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:129:17-98
+503-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:129:25-95
+504            </intent-filter>
+505        </receiver>
+506        <receiver
+506-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:132:9-142:20
+507            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+507-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:133:13-78
+508            android:directBootAware="false"
+508-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:134:13-44
+509            android:enabled="true"
+509-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:135:13-35
+510            android:exported="true"
+510-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:136:13-36
+511            android:permission="android.permission.DUMP" >
+511-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:137:13-57
+512            <intent-filter>
+512-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:139:13-141:29
+513                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+513-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:140:17-88
+513-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:140:25-85
+514            </intent-filter>
+515        </receiver>
+516
+517        <service
+517-->[androidx.room:room-runtime:2.5.0] /Users/rohitchahal/.gradle/caches/transforms-3/7067b780637a07dab1793bc593472a59/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+518            android:name="androidx.room.MultiInstanceInvalidationService"
+518-->[androidx.room:room-runtime:2.5.0] /Users/rohitchahal/.gradle/caches/transforms-3/7067b780637a07dab1793bc593472a59/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
+519            android:directBootAware="true"
+519-->[androidx.room:room-runtime:2.5.0] /Users/rohitchahal/.gradle/caches/transforms-3/7067b780637a07dab1793bc593472a59/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+520            android:exported="false" />
+520-->[androidx.room:room-runtime:2.5.0] /Users/rohitchahal/.gradle/caches/transforms-3/7067b780637a07dab1793bc593472a59/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+521        <service
+521-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/rohitchahal/.gradle/caches/transforms-3/79cd1bafed96580106fe6e506e930fd1/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:28:9-34:19
+522            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+522-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/rohitchahal/.gradle/caches/transforms-3/79cd1bafed96580106fe6e506e930fd1/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:29:13-103
+523            android:exported="false" >
+523-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/rohitchahal/.gradle/caches/transforms-3/79cd1bafed96580106fe6e506e930fd1/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:30:13-37
+524            <meta-data
+524-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/rohitchahal/.gradle/caches/transforms-3/79cd1bafed96580106fe6e506e930fd1/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:31:13-33:39
+525                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+525-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/rohitchahal/.gradle/caches/transforms-3/79cd1bafed96580106fe6e506e930fd1/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
+526                android:value="cct" />
+526-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/rohitchahal/.gradle/caches/transforms-3/79cd1bafed96580106fe6e506e930fd1/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:33:17-36
+527        </service>
+528        <service
+528-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/rohitchahal/.gradle/caches/transforms-3/e93802a06c520164bef251005c74c5ed/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
+529            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+529-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/rohitchahal/.gradle/caches/transforms-3/e93802a06c520164bef251005c74c5ed/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
+530            android:exported="false"
+530-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/rohitchahal/.gradle/caches/transforms-3/e93802a06c520164bef251005c74c5ed/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
+531            android:permission="android.permission.BIND_JOB_SERVICE" >
+531-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/rohitchahal/.gradle/caches/transforms-3/e93802a06c520164bef251005c74c5ed/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
+532        </service>
+533
+534        <receiver
+534-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/rohitchahal/.gradle/caches/transforms-3/e93802a06c520164bef251005c74c5ed/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
+535            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+535-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/rohitchahal/.gradle/caches/transforms-3/e93802a06c520164bef251005c74c5ed/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:33:13-132
+536            android:exported="false" /> <!-- Receiver Service -->
+536-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/rohitchahal/.gradle/caches/transforms-3/e93802a06c520164bef251005c74c5ed/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
+537        <service
+537-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:29:9-31:40
+538            android:name="app.notifee.core.ReceiverService"
+538-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:30:13-60
+539            android:exported="false" />
+539-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:31:13-37
+540
+541        <activity
+541-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:33:9-39:75
+542            android:name="app.notifee.core.NotificationReceiverActivity"
+542-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:34:13-73
+543            android:excludeFromRecents="true"
+543-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:35:13-46
+544            android:exported="true"
+544-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:36:13-36
+545            android:noHistory="true"
+545-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:37:13-37
+546            android:taskAffinity=""
+546-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:38:13-36
+547            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Foreground Service -->
+547-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:39:13-72
+548        <service
+548-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:42:9-44:40
+549            android:name="app.notifee.core.ForegroundService"
+549-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:43:13-62
+550            android:exported="false" />
+550-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:44:13-37
+551
+552        <receiver
+552-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:46:9-54:20
+553            android:name="app.notifee.core.RebootBroadcastReceiver"
+553-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:47:13-68
+554            android:exported="false" >
+554-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:48:13-37
+555            <intent-filter>
+555-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:49:13-53:29
+556                <action android:name="android.intent.action.BOOT_COMPLETED" />
+556-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:117:17-79
+556-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:117:25-76
+557                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+557-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:51:17-82
+557-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:51:25-79
+558                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+558-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:52:17-82
+558-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:52:25-79
+559            </intent-filter>
+560        </receiver>
+561        <receiver
+561-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:55:9-61:20
+562            android:name="app.notifee.core.AlarmPermissionBroadcastReceiver"
+562-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:56:13-77
+563            android:exported="true" >
+563-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:57:13-36
+564            <intent-filter>
+564-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:58:13-60:29
+565                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+565-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:59:17-107
+565-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:59:25-104
+566            </intent-filter>
+567        </receiver>
+568        <receiver
+568-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:62:9-70:20
+569            android:name="app.notifee.core.NotificationAlarmReceiver"
+569-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:63:13-70
+570            android:exported="false" >
+570-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:64:13-37
+571            <intent-filter>
+571-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:49:13-53:29
+572                <action android:name="android.intent.action.BOOT_COMPLETED" />
+572-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:117:17-79
+572-->[androidx.work:work-runtime:2.8.0] /Users/rohitchahal/.gradle/caches/transforms-3/d7ee78cbc870acfcd7b0f6959496f038/transformed/work-runtime-2.8.0/AndroidManifest.xml:117:25-76
+573                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+573-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:51:17-82
+573-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:51:25-79
+574                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+574-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:52:17-82
+574-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:52:25-79
+575            </intent-filter>
+576        </receiver> <!-- Broadcast Receiver -->
+577        <receiver
+577-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:73:9-81:20
+578            android:name="app.notifee.core.BlockStateBroadcastReceiver"
+578-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:74:13-72
+579            android:exported="false" >
+579-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:75:13-37
+580            <intent-filter>
+580-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:76:13-80:29
+581                <action android:name="android.app.action.APP_BLOCK_STATE_CHANGED" />
+581-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:77:17-85
+581-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:77:25-82
+582                <action android:name="android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED" />
+582-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:78:17-102
+582-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:78:25-99
+583                <action android:name="android.app.action.NOTIFICATION_CHANNEL_GROUP_BLOCK_STATE_CHANGED" />
+583-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:79:17-108
+583-->[app.notifee:core:202108261754] /Users/rohitchahal/.gradle/caches/transforms-3/deddcb292e647d414c9a84ee1bccce1b/transformed/jetified-core-202108261754/AndroidManifest.xml:79:25-105
+584            </intent-filter>
+585        </receiver>
+586    </application>
+587
+588</manifest>

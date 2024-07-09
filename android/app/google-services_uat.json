@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "185752411902",
+    "project_id": "myhealthbuddy-uat",
+    "storage_bucket": "myhealthbuddy-uat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185752411902:android:9c9cca2e4fc1f846f68faf",
+        "android_client_info": {
+          "package_name": "com.pravisht.MhbMobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH7dEX9bpnzUn7lXolov5GksmhbNKNhEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

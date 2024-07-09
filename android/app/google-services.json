@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "284974471430",
+    "firebase_url": "https://myhealthbuddy-default-rtdb.firebaseio.com",
+    "project_id": "myhealthbuddy",
+    "storage_bucket": "myhealthbuddy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284974471430:android:412cc6218aa0269f06a687",
+        "android_client_info": {
+          "package_name": "com.pravisht.MhbMobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "284974471430-oqlmuna0ndvdk2mfb728utj568avdo34.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhQlD38hZnJRJbJkM4yn4oAelnhe2nax0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "284974471430-oqlmuna0ndvdk2mfb728utj568avdo34.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "284974471430-e4i3sa76023qks6odr6gecoq5c547uoo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pravisht.MhbMobile"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
